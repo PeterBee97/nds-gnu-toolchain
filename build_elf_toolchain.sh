@@ -1,9 +1,11 @@
+#!/bin/bash
+
 TARGET=riscv32-elf
-PREFIX=`pwd`/nds32le-elf-newlib-v5
-ARCH=rv32imcxandes
-ABI=ilp32
-CPU=andes-25-series
-BUILD=`pwd`/build-nds32le-elf-newlib-v5
+PREFIX=`pwd`/nds32le-elf-newlib-v5d
+ARCH=rv32imafdcxandes
+ABI=ilp32d
+CPU=andes-45-series
+BUILD=`pwd`/build-nds32le-elf-newlib-v5d
 
 BINUTILS_SRC=`pwd`/binutils
 GDB_SRC=`pwd`/gdb
